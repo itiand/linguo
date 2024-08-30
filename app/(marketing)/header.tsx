@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <header className="w-full border-b-2 border-slate-200 px-4">
       <div>
-        <div>
+        <div id="linguo-logo">
           <Image
             src="/logo-placeholder-image.png"
             alt="Linguo"
