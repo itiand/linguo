@@ -18,8 +18,8 @@ export default function RootLayout({
   return (
     <ClerkProvider
       afterSignOutUrl="/buttons"
-      signInFallbackRedirectUrl="/buttons"
-      signUpFallbackRedirectUrl="/buttons"
+      // signInFallbackRedirectUrl="/buttons"
+      // signUpFallbackRedirectUrl="/buttons"
     >
       <html lang="en">
         <body className={nunito.className}>{children}</body>
