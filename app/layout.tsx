@@ -20,6 +20,13 @@ export default function RootLayout({
       afterSignOutUrl="/"
       // signInFallbackRedirectUrl="/buttons"
       // signUpFallbackRedirectUrl="/buttons"
+
+      //to remove the development mode warning
+      appearance={{
+        layout: {
+          unsafe_disableDevelopmentModeWarnings: true,
+        },
+      }}
     >
       <html lang="en">
         <body className={nunito.className}>{children}</body>
