@@ -1,6 +1,6 @@
 import { clerkMiddleware, createRouteMatcher } from "@clerk/nextjs/server";
 
-const isPublicRoute = createRouteMatcher(["/", "/buttons"]);
+const isPublicRoute = createRouteMatcher(["/", "/buttons", "/about", "/shop"]);
 
 export default clerkMiddleware((auth, request) => {
   if (!isPublicRoute(request)) {

@@ -17,7 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <ClerkProvider
-      afterSignOutUrl="/buttons"
+      afterSignOutUrl="/"
       // signInFallbackRedirectUrl="/buttons"
       // signUpFallbackRedirectUrl="/buttons"
     >
