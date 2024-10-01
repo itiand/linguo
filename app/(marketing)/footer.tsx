@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 const Footer = () => {
   return (
     <footer className="hidden w-full border-t-2 border-slate-200 px-4 py-2 lg:block">
-      <div className="footer-container mx-auto flex h-full items-center justify-between lg:max-w-screen-lg">
+      <div className="footer-container mx-auto flex h-full items-center justify-between py-2 lg:max-w-screen-lg">
         <Button size="lg" variant="ghost">
           <Image
             src="/flags/ph.svg"
@@ -23,16 +23,6 @@ const Footer = () => {
             className="mr-4 rounded-md"
           />
           Japanese
-        </Button>
-        <Button size="lg" variant="ghost">
-          <Image
-            src="/flags/cu.svg"
-            alt="Cuba"
-            width={20}
-            height={20}
-            className="mr-4 rounded-md"
-          />
-          Cuban Spanish
         </Button>
         <Button size="lg" variant="ghost">
           <Image
