@@ -9,7 +9,7 @@ const MarketingLayout = ({ children }: Props) => {
   return (
     <div className="flex min-h-screen flex-col">
       <Header />
-      <main className="flex flex-1 flex-col items-center justify-center">
+      <main className="flex flex-1 flex-col items-center justify-center px-4">
         {children}
       </main>
       <Footer />
